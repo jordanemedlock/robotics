@@ -162,7 +162,7 @@
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -249,8 +249,8 @@
 						"selection":
 						[
 							[
-								231,
-								231
+								156,
+								156
 							]
 						],
 						"settings":
@@ -261,7 +261,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -283,8 +283,8 @@
 						"selection":
 						[
 							[
-								190,
-								190
+								306,
+								306
 							]
 						],
 						"settings":
@@ -297,7 +297,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -305,7 +305,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -343,7 +343,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 417.0
+		"height": 338.0
 	},
 	"output.find_results":
 	{
@@ -352,7 +352,7 @@
 	"project": "robotics.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -379,7 +379,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

@@ -1,13 +1,11 @@
 #!/usr/local/bin/python
 
-import numpy as np
 import time
 from baymax import *
 
 class Board(object):
 	def __init__(self, n):
 		self.n = n
-		self.b = np.zeros((n,n), dtype=int)
 		self.baymax = Baymax(0, n-1, NORTH, (n/2,n/2), (n-1,0))
 
 	def run(self):
