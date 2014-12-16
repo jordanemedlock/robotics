@@ -1,15 +1,12 @@
 # Robotics!!!
 
 ## Git usage
-When you're done for the time period and you want to save your progress type this into the Git bash window:
+When you're done for the time period and you want to save your progress do this:
 
-`git add .`
-`git commmit`
+press `ctrl-shift-p` then type `git add` to add the files to be saved
+press `ctrl-shift-p` then type `git commit` to commit them to be saved
+	type what you changed
+press `ctrl-shift-p` then type `git push` to commit them to be saved
+	type the username and password
 
-Type `i`
-Here you will type what you did that day.
-Type `'esc' :wq`
-
-`git push`
-
-Type the username and password.
+When you're starting to program press `ctrl-shift-p` then type the username and password
