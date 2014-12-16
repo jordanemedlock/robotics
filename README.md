@@ -6,7 +6,9 @@ When you're done for the time period and you want to save your progress type thi
 `git add .`
 `git commmit`
 
+Type `i`
 Here you will type what you did that day.
+Type `'esc' :wq`
 
 `git push`
 
