@@ -41,6 +41,5 @@ if __name__ == '__main__':
 	board = Board(10)
 	while True:
 		board.run()
-		time.sleep(1)
-
+		time.sleep(1)  
 

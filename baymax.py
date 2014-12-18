@@ -21,27 +21,34 @@ class Baymax(object):
 
 		self.picked_up = False
 		self._turn_up = False
+		self.going_home = False
 
 	def run(self):
 		self._turn_up = False
 		self.think()
 
 	def think(self):
-		if not self.picked_up:
-
-			if self.x == self.hiro_x and self.y == self.hiro_y:
-				self.pickupHiro()
-			elif self.direction == EAST:
+		if self.direction == NORTH and self.y != self.hiro_y and self.y != self.home_y:
+				print 'd'
+			 	self.walk()
+		if self.direction == EAST and self.x != self.hiro_x and self.x != self.home_x:
+				print 'b'
 				self.walk()
-			elif self.y == self.hiro_y:
-				self.turnRight()
-			else: 
-				self.walk()
-
-			
-			
-		else:
+		if self.y == self.hiro_y and self.x != self.hiro_x:
+				print 'c'
+				self.turnRight()	
+		
+		if self.x == self.hiro_x and self.y == self.hiro_y and not self.picked_up:
+				print 'a'
+				self.pickupHiro() 
+		if self.picked_up:
 			self.turnLeft()
+
+		
+		if self.y == self.home_y:
+			self.turnRight()
+ 
+		
 
 
 
